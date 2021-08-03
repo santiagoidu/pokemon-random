@@ -13,6 +13,10 @@ npm start
 ```
 ### - Feito os procedimentos acima entre em http://localhost:3000
 
+### Demonstração: 
+```
+https://pokemon-random-react.herokuapp.com/
+```
 ## **:page_with_curl:  LICENÇA**
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
