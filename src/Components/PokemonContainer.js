@@ -35,7 +35,7 @@ class PokemonContainer extends React.Component {
             )} else {
                 return(
                     <div>
-                        <h1>&#x2193; Generate a Random Pokemon &#x2193;</h1>
+                        <h1>&#x2193; Gere um Pokémon Aleatório &#x2193;</h1>
                         <button id='buttonText' onClick={this.props.handleBtn}> Clique aqui </button>
                     </div>
                 )
