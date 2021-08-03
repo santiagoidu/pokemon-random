@@ -1,5 +1,5 @@
 import React from 'react'
-//this will render a random pokemon
+
 function random_bg_color() {
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);
@@ -20,7 +20,7 @@ class PokemonContainer extends React.Component {
             return(
                 <div>
                     <a onClick={random_bg_color()}>
-                     <button id='buttonTwo' onClick={this.props.handleBtn}> Clique aqui para outro Pokémon </button>
+                     <button id='buttonTwo' className="bnt" onClick={this.props.handleBtn}> Clique aqui para outro Pokémon </button>
                     </a>
                      
                      <br></br>
